@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apk --no-cache add ppp openssl unzip
+apk --no-cache add ppp openssl
 
 # wget https://github.com/abrasive/nxBender/archive/refs/heads/master.zip -O /tmp/nxBender.zip
 wget https://github.com/JustBeta/nxBender/archive/refs/heads/master.zip -O /tmp/nxBender.zip
