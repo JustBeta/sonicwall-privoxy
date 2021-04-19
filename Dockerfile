@@ -31,7 +31,7 @@ RUN /privoxy.sh  && rm /privoxy.sh
 # Main Docker
 RUN apk add --no-cache tini
 # ADD start.sh /usr/sbin/
-RUN wget https://github.com/JustBeta/sonicwall-privoxy/blob/main/start.sh -O /usr/sbin/
+RUN wget https://github.com/JustBeta/sonicwall-privoxy/blob/main/start.sh -O /usr/sbin/start.sh
 RUN chmod u+x /usr/sbin/start.sh
 
 WORKDIR /
