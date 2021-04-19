@@ -1,0 +1,4 @@
+server = <Controleur VPN>
+username = <login VPN>
+password = <pass VPN>
+domain = <domain VPN>
