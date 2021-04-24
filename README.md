@@ -12,6 +12,7 @@ Suppression du docker:
 docker stop sonicwall-privoxy
 docker rm sonicwall-privoxy
 docker rmi sonicwall-privoxy
+docker volume rm config
 ```
 
 Fichier de configuration:
