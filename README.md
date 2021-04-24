@@ -2,13 +2,16 @@
 
 Creation du docker:
 ```
-docker stop sonicwall-privoxy
-docker rm sonicwall-privoxy
-docker rmi sonicwall-privoxy
-rem docker volume create config
+docker volume create config
 docker build -t sonicwall-privoxy .
 rem docker scan sonicwall-privoxy
 docker run --restart always --detach --privileged -p 8118:8118 --name sonicwall-privoxy -v config:/config sonicwall-privoxy
+```
+Suppression du docker:
+```
+docker stop sonicwall-privoxy
+docker rm sonicwall-privoxy
+docker rmi sonicwall-privoxy
 ```
 
 Fichier de configuration:
