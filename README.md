@@ -35,3 +35,6 @@ peut etre utilisé avec un produit tel que Proxifier (le meilleur) ou equivalent
 testé sous :
 - docker Linux Debian amd64 et arm64 (Freebox le top des FAI Français)
 - docker Windows WLS2 natif et debian amd64 
+
+ Merci a https://github.com/abrasive/nxBender pour avoir créé ce client VPN de grande qualité.
+ 
